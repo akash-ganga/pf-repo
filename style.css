@@ -6,6 +6,7 @@ body{
     color: white;
     text-align: center;
     padding: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 img{
     height: 600px;
@@ -13,4 +14,34 @@ img{
 }
 .detail, .header{
     text-align: center;
+}
+#button{
+    width: 20px;
+    height: 80px;
+    background-color: aqua;
+    margin: auto 40px;
+    border-radius: 10px;
+    position: relative;
+}
+#inner-but{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: -10px;
+    top: 0px;
+}
+a{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-decoration: none;
+    color:rgb(84, 84, 199);
+    padding: 10px 20px;
+}
+a:hover{
+    color: chartreuse;
+    width: 400px;
+    font-size: xx-large;
 }
